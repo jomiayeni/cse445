@@ -1,1 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (1) Error: root element is Hotel instead of Hotels -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- (2) Error: Missing required attribute "NearstAirport" -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (3) Error: Missing Phone element -->
+  <Hotel>
+    <Name>Hilton Garden Inn</Name>
+    <Address NearstAirport="Phoenix Airport">
+      <Number>1400</Number>
+      <Street>N Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85257</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (4) Error: Unclosed Address tag -->
+  <Hotel Rating="3.8">
+    <Name>Holiday Inn</Name>
+    <Phone>602-123-4567</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>101</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    <!-- Missing </Address> here -->
+  </Hotel>
+
+  <!-- (5) Error: Two Name elements -->
+  <Hotel Rating="4.5">
+    <Name>Hyatt Place</Name>
+    <Name>Duplicate Name</Name>
+    <Phone>480-111-2222</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>555</Number>
+      <Street>Broadway Ave</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85204</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
 
