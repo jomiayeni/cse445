@@ -16,35 +16,35 @@
   </Hotel>
 
   <Hotel Rating="3.9">
-    <Name>Hilton Garden Inn</Name>
-    <Phone>602-555-1122</Phone>
+    <Name>Hilton </Name>
+    <Phone>602-585-3222</Phone>
     <Address NearstAirport="Phoenix Airport">
-      <Number>1400</Number>
-      <Street>N Scottsdale Rd</Street>
-      <City>Scottsdale</City>
+      <Number>14</Number>
+      <Street>Scottsdale st</Street>
+      <City>Scott</City>
       <State>AZ</State>
-      <Zip>85257</Zip>
+      <Zip>85287</Zip>
     </Address>
   </Hotel>
 
   <Hotel>
-    <Name>Courtyard by Marriott</Name>
-    <Phone>602-777-2345</Phone>
-    <Phone>888-222-3456</Phone>
+    <Name>Courtstar</Name>
+    <Phone>602-747-2175</Phone>
+    <Phone>888-152-3226</Phone>
     <Address NearstAirport="Sky Harbor">
-      <Number>210</Number>
-      <Street>S Priest Dr</Street>
+      <Number>21</Number>
+      <Street>S Priest st</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85282</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.7">
-    <Name>Hyatt Regency</Name>
+  <Hotel Rating="4.3">
+    <Name>sharaton</Name>
     <Phone>602-321-6789</Phone>
     <Address NearstAirport="Phoenix Airport">
-      <Number>122</Number>
+      <Number>12</Number>
       <Street>N Central Ave</Street>
       <City>Phoenix</City>
       <State>AZ</State>
@@ -53,32 +53,32 @@
   </Hotel>
 
   <Hotel>
-    <Name>Holiday Inn Express</Name>
-    <Phone>480-987-6543</Phone>
+    <Name>Inn</Name>
+    <Phone>485-987-6563</Phone>
     <Address NearstAirport="Mesa Gateway">
-      <Number>345</Number>
+      <Number>315</Number>
       <Street>E Southern Ave</Street>
       <City>Mesa</City>
       <State>AZ</State>
-      <Zip>85206</Zip>
+      <Zip>85296</Zip>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.0">
-    <Name>Drury Inn Suites</Name>
+    <Name>Drury Suites</Name>
     <Phone>602-543-2100</Phone>
     <Address NearstAirport="Phoenix Airport">
-      <Number>789</Number>
-      <Street>W Camelback Rd</Street>
-      <City>Glendale</City>
+      <Number>722</Number>
+      <Street>W Camelback </Street>
+      <City>Glen</City>
       <State>AZ</State>
       <Zip>85301</Zip>
     </Address>
   </Hotel>
 
   <Hotel Rating="3.5">
-    <Name>Aloft Tempe</Name>
-    <Phone>480-345-1234</Phone>
+    <Name>Aloft Hall</Name>
+    <Phone>480-365-1244</Phone>
     <Address NearstAirport="Sky Harbor">
       <Number>951</Number>
       <Street>E Playa Del Norte Dr</Street>
@@ -101,8 +101,8 @@
   </Hotel>
 
   <Hotel>
-    <Name>Embassy Suites</Name>
-    <Phone>480-123-7777</Phone>
+    <Name>Cool Suites</Name>
+    <Phone>480-123-7257</Phone>
     <Phone>855-333-8888</Phone>
     <Address NearstAirport="Phoenix Airport">
       <Number>645</Number>
@@ -113,12 +113,12 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.8">
+  <Hotel Rating="3.0">
     <Name>Comfort Suites</Name>
     <Phone>602-654-3210</Phone>
     <Address NearstAirport="Sky Harbor">
       <Number>222</Number>
-      <Street>N 44th St</Street>
+      <Street>N 49th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85008</Zip>
@@ -126,11 +126,11 @@
   </Hotel>
 
   <Hotel>
-    <Name>Best Western Plus</Name>
-    <Phone>602-202-9000</Phone>
+    <Name>Western Plus</Name>
+    <Phone>602-226-9000</Phone>
     <Address NearstAirport="Mesa Gateway">
       <Number>303</Number>
-      <Street>W University Dr</Street>
+      <Street>University st</Street>
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85201</Zip>
