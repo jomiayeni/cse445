@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- (1) Error: root element is Hotel instead of Hotels -->
+<!-- (1) Error: The root element is Hotel, instead of Hotels -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- (2) Error: Missing required attribute "NearstAirport" -->
+  <!-- (2) Error: Missing required attribute  -->
+   required attribute is missin
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -16,7 +17,7 @@
     </Address>
   </Hotel>
 
-  <!-- (3) Error: Missing Phone element -->
+  <!-- (3) Error: Missing Phone element  on one of the hotels-->
   <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Address NearstAirport="Phoenix Airport">
@@ -28,7 +29,7 @@
     </Address>
   </Hotel>
 
-  <!-- (4) Error: Unclosed Address tag -->
+  <!-- (4) Error: An Address elect has no closing tag -->
   <Hotel Rating="3.8">
     <Name>Holiday Inn</Name>
     <Phone>602-123-4567</Phone>
@@ -41,7 +42,7 @@
     <!-- Missing </Address> here -->
   </Hotel>
 
-  <!-- (5) Error: Two Name elements -->
+  <!-- (5) Error: Two names are provided for one of the hotels -->
   <Hotel Rating="4.5">
     <Name>Hyatt Place</Name>
     <Name>Duplicate Name</Name>
